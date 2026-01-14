@@ -4,8 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/expense-tracker/',
   plugins: [
     react(),tailwindcss()
   ],
+  base: '/expense-tracker'
 })

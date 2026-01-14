@@ -1,6 +1,6 @@
 {
   "name": "budget-app",
-  "homepage": "https://jeetmadhvani.github.io/expense-tracker/",
+  "homepage": "https://jeetmadhvani.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm tun build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
